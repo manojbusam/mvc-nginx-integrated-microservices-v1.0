@@ -20,6 +20,8 @@
 
 /usr/local/etc/nginx/nginx.conf
 
+# 2a. configure static webpage in the mysite folder
+
 # 3. Start nginx
 
 bin/nginx
