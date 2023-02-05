@@ -14,22 +14,24 @@
 
 # Step-by-step
 
-# 1. Install nginx
+1. Install nginx
 
-# 2. configure nginx port and static webpage
+2. configure nginx port and static webpage:
 
-/usr/local/etc/nginx/nginx.conf
+"nginx.conf" file
 
-# 2a. configure static webpage in the mysite folder
+2a. configure static webpage :
 
-# 3. Start nginx
+"mysite" folder
+
+3. Start nginx
 
 bin/nginx
 
-# 4. nginx Service API:
+4. nginx Service API:
 
 http://localhost:8080/
 
-# 5. Reloading nginx:
+5. Reloading nginx:
 
 nginx -s reload
