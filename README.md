@@ -6,11 +6,13 @@
 
 # Usecases:
 
-1. Nginx acts a middle man/reverse proxy to handle large amount of traffic for the application.
+1.	Caching static content for high throughput.
+2.	Redirects the requests to desired webpages
+3.	Nginx acts a middle man/reverse proxy to handle large amount of traffic for the application.
+4.	Forwards requests to available servers, i.e nginx can act as a load balancer.
+5.	Encryption/Decryption 
 
-2. Forwards requests to available servers, i.e nginx can act as a load balancer.
 
-3. Encryption/Decryption (HTTP to HTTPS)
 
 # Step-by-step
 
